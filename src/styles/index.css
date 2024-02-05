@@ -1,0 +1,40 @@
+@import './Reset.css';
+@import './Animation.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DNFForgedBlade';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'DNFForgedBlade';
+  font-style: normal;
+  font-weight: 500;
+  src: url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'DNFForgedBlade';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WandohopeR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  line-height: 1;
+  font-family: 'DNFForgedBlade';
+  background-color: black;
+}
